@@ -1,0 +1,42 @@
+.touch1 { grid-area: main; }
+.touch2 { grid-area: right; background-color: lightseagreen; font-size: x-large; }
+.pagecontact {
+    display: grid;
+    grid-template-areas: 
+      'main main right right'
+}
+.full {
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+}.full2 {
+    box-sizing: border-box;
+
+    width: 203px;
+    height: 55px;
+    
+    background: #FFFFFF;
+    /* White */
+    
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    
+}
+.box {
+    margin-top: auto;
+    font-size: x-large;
+    box-sizing: border-box;
+
+width: 203px;
+height: 55px;
+
+background: burlywood;
+
+
+border: 1px solid #FFFFFF;
+border-radius: 12px;
+
+}
+.contact2 {
+    font-size: xx-large;
+}
