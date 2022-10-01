@@ -12,10 +12,10 @@ const Projects = () => {
       <div className='project1'>
      <div style={{ backgroundImage: `url(${PRINTING})` }}> <a style={{textDecoration: 'none'}} className='whitish' href='https://adebiyi1605.wixsite.com/adeptbookprint'> A Website for a Printing Press </a></div>
       </div>
-    <div className='project2'>
+    <div className='project1'>
     <div style={{ backgroundImage: `url(${Programming})` }}> <a style={{textDecoration: 'none'}} className='whitish' href='https://dynamicpeeps.hashnode.dev/'> My Personal programming Blog</a></div>
       </div>
-    <div className='project3'>
+    <div className='project1'>
      <div style={{ backgroundImage: `url(${RESTUARANT})` }}>  <a style={{textDecoration: 'none'}} className='whitish' href='https://gb-food-app.netlify.app/'> A Website for a Restuarant </a></div>
      </div>
  </div>

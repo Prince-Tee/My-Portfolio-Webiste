@@ -1,3 +1,7 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
 .project1 {
     display: flex;
     flex-wrap: wrap;
@@ -7,51 +11,42 @@
    
 }
 .project1 > div {
-    background-color: darkblue;
+    
     width: 1200px;
     margin: 100px;
-    text-align: center;
-    line-height: 500px;
+    text-align: middle;
+   height: 500px;
     font-size: 40px;
     
 }
+@media (max-width: 769px) {
+    .project1 {
+        width: 450px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 400px;
+    overflow: hidden;
+    
+    }
+}
+
+
 .lap {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     text-align: left;
-    font-size: x-large;
+    font-size: large;
 }
+
+
 .whitish{
-    color: blue;
+    background-color: black;
+    color: white;
     font-weight: bold;
-}
-.project2 {
-    
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-    
-   
-}
-.project2 > div {
-    background-color: blue;
-    width: 1200px;
-    margin: 100px;
     text-align: center;
-    line-height: 500px;
-    font-size: 40px;
 }
-.project3 {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-    
-   
-}
-.project3 > div {
-    
-    width: 1200px;
-    margin: 100px;
-    text-align: center;
-    line-height: 500px;
-    font-size: 40px;
+@media (max-width: 769px) {
+  .whitish{
+    font-size: 15px;
+  }
 }

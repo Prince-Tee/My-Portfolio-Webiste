@@ -1,11 +1,17 @@
+import { Component } from "react";
 import { Link } from "react-router-dom";
 
-export default function Navbar() {
+export default class Navbar extends Component {
+    state={clicked: false}
+    handleClick = () =>{
+      this.setState({clicked: !this.state.clicked})
+    }
+    render() {
     return <nav className="nav">
-       <h1 className='Name'> Taiwo Adebiyi</h1>
+       <h1 className='Name'> Taiwo Adebiyi</h1> 
       
       
-      <ul>
+      <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
        <li>
         <Link style={{textDecoration: 'none'}} to="/About"> About </Link>
         </li>
@@ -31,5 +37,9 @@ export default function Navbar() {
        </li>
      
       </ul>
+      
+      <div id="mobile" onClick={this.handleClick}>
+        <i id="bar" className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+      </div>
     </nav>
-}
+}}
