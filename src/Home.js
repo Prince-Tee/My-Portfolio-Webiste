@@ -232,7 +232,7 @@ const Home = () => {
                   A Website for a Printing Press
                 </a>
               </p>
-              <img src={PRINTING} />
+              <img src={PRINTING} alt="" />
             </div>
           </div>
           <div className="project1">
@@ -245,7 +245,7 @@ const Home = () => {
                 Metabnb For Frontend
               </a>
             </p>
-            <img src={Programming} />
+            <img src={Programming} alt=" " />
           </div>
 
           <div className="project1">
@@ -259,7 +259,7 @@ const Home = () => {
                   A Website for a resturant
                 </a>
               </p>
-              <img src={RESTUARANT} />
+              <img src={RESTUARANT} alt=" " />
             </div>
           </div>
         </div>
