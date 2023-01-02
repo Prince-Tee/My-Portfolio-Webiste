@@ -211,7 +211,7 @@ const Home = () => {
         <div className="lap">
           <h1> Projects </h1>
           <p className="project-para">
-            Here are a few people and projects i've patnered and worked on.
+            Here are a few projects i've worked on.
           </p>
           <div className="project1">
             <div>
